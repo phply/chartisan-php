@@ -1,0 +1,21 @@
+{
+    "name": "phply/chartisan-php",
+    "description": "Chartisan's PHP backend",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Rustam Mamadaminov",
+            "email": "rmamdaminov@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Phply\\Chartisan\\": "src"
+        }
+    }
+}
